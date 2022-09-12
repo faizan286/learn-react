@@ -1,7 +1,40 @@
 header{
-	width: 99%;
-	background: #fff;
-	margin: auto;
-	margin-top: 10px;
-	border-radius: 5px;
+	/* background-color: aquamarine; */
+	padding: 20px;
+}
+
+.logo-area, .greeting-area{
+	display: inline-block;
+}
+.logo-area{
+	width: 30%;
+}
+
+.logo a{
+	font-size: 36px;
+	font-weight: 500;
+}
+
+.greeting-area{
+	width: 40%;
+	text-align: center;
+}
+
+.nav{
+	position: fixed;
+	right: 20px;
+	top: 40px;
+	text-align: right;
+}
+.nav a{
+	margin: 8px 0;
+	display: block;
+}
+.nav a.active{
+	border-right: 3px solid #1d9de7;
+	box-shadow: 0 0px 5px rgb(0, 0, 0, 0.2);
+	border-radius: 4px;
+	padding-right: 5px;
+	padding-left: 10px;
+	
 }
