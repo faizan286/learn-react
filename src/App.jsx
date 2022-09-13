@@ -6,6 +6,7 @@ import Projects from './components/projects/Projects'
 import About from './components/about/About'
 import Journey from './components/journey/Journey'
 import Contact from './components/contact/Contact'
+import Other from './components/other/Other'
 
 const App = () => {
 	return (
@@ -15,9 +16,9 @@ const App = () => {
 			<Hero />
 			<Projects />
 			<Journey />
-			<Contact />
 			<About />
-
+			<Contact />
+			<Other />
 		</>
 
 	)

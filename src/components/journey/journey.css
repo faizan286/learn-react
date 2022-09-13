@@ -1,0 +1,14 @@
+.journey{
+    /* height: 400px; */
+    
+}
+.journey-inner{
+    padding: 20px 40px 40px;
+    box-shadow: 0 4px 10px rgb(0, 0, 0, 0.2);
+    border-radius: 8px;
+}
+.journey-title{
+    font-weight: 500;
+    margin-bottom: 16px;
+    margin-top: 20px;
+}
