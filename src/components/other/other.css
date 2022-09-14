@@ -1,0 +1,23 @@
+.social, .steps-wrap{
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.social-links, .steps{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.steps-wrap{
+    left: unset;    
+    right: 0;
+}
+.step-item{
+    width: 40px;
+    height: 15px;
+    border-radius: 2px;
+    background-color: #9DAAF2;
+    margin-bottom: 10px;
+}

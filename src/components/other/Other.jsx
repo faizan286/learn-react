@@ -7,14 +7,20 @@ const Other = () => {
   return (
     <div className="other">
         <div className="social">
-            <ul className="social-links">
+            <div className="social-links">
                 <a href='https://github.com/' className="sc-link-item"><FaGithubSquare /></a>
                 <a href='https://in.linkedin.com/' className="sc-link-item"><AiFillLinkedin /></a>
                 <a href='https://www.instagram.com/' className="sc-link-item"><BsInstagram /></a>
-            </ul>
+            </div>
         </div>
-        <div className="right-nav">
-
+        <div className="steps-wrap">
+          <div className="steps">
+            <div className="step-item"></div>
+            <div className="step-item"></div>
+            <div className="step-item"></div>
+            <div className="step-item"></div>
+            <div className="step-item"></div>
+          </div>
         </div>
     </div>
   )

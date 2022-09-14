@@ -8,5 +8,6 @@ import './components/projects/projects.css'
 import './components/about/about.css'
 import './components/journey/journey.css'
 import './components/contact/contact.css'
+import './components/other/other.css'
 
 ReactDOM.render(<App/>, document.getElementById('root'));
